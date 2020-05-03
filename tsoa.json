@@ -1,0 +1,19 @@
+{
+  "swagger": {
+    "info": {
+      "description": "",
+      "version": "1.0.0",
+      "title": "Tsoa Rest Apis"
+    },
+    "schemes": ["http", "https"]
+  },
+  "outputDirectory": "./dist",
+  "entryFile": "./src/app.ts",
+  "host": "localhost:8080",
+  "basePath": "/",
+  "routes": {
+    "basePath": "/api",
+    "entryFile": "./src/app.ts",
+    "routesDir": "./src/middleware"
+  }
+}

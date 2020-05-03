@@ -1,0 +1,16 @@
+{
+  "development": {
+    "SENDGRID": {
+      "API_KEY": "XXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "API_URL": "https://api.sendgrid.com/v3/",
+      "SEND_MAIL_URL": "mail/send",
+      "TEMPLATE_ID": "733ba07f-ead1-41fc-933a-3976baa23716",
+      "FROM_EMAIL": "XXXXXXXXXXXXXXXXXXXXXXXXXXX"
+    },
+    "SALT_ROUND": 8,
+    "SECRET_KEY": "casestudy",
+    "PORT": 3000,
+    "VERSION": "0.1",
+    "MONGODB_URI": "mongodb+srv://root:root@123@cluster0-uauww.mongodb.net/case-study?retryWrites=true&w=majority"
+  }
+}
